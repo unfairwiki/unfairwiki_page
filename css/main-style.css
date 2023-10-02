@@ -1,0 +1,23 @@
+/*文字黑幕效果，from moegirl.org*/
+.black_scene, .black_scene a, a .black_scene, .black_scene a.new {
+    background-color: #252525;
+    color: #252525;
+    text-shadow: none;
+}
+.black_scene:hover, .black_scene:active,
+.black_scene:hover .black_scene, .black_scene:active .black_scene {
+    color: white !important;
+}
+.black_scene:hover a, a:hover .black_scene,
+.black_scene:active a, a:active .black_scene {
+    color: lightblue !important;
+}
+.black_scene:hover .new, .black_scene .new:hover, .new:hover .black_scene,
+.black_scene:active .new, .black_scene .new:active, .new:active .black_scene {
+    color: #BA0000 !important;
+}
+/*文字模糊效果*/
+.blur {
+    color: transparent;
+    text-shadow: #111 0 0 10px;
+}
